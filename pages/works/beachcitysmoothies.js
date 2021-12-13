@@ -30,7 +30,7 @@ const Work = () => {
                     <span>Windows, Mac, iPhone, Android</span>
                 </ListItem>
                 </List>
-
+                
                 <WorkImage src="/images/works/beachcitysmoothies_01.png" alt="beachcitysmoothies"></WorkImage>
                 <WorkImage src="/images/works/beachcitysmoothies_02.png" alt="beachcitysmoothies"></WorkImage>
             </Container>

@@ -30,10 +30,9 @@ const Work = () => {
                     <span>Windows, Mac, iPhone, Android</span>
                 </ListItem>
                 </List>
-
-                <WorkImage src="/images/works/reactportfolio_01.png" alt="reactportfolio_1"></WorkImage>
-                <WorkImage src="/images/works/reactportfolio_02.png" alt="reactportfolio_2"></WorkImage>
-                <WorkImage src="/images/works/reactportfolio_03.png" alt="reactportfolio_3"></WorkImage>
+                <WorkImage src="/images/works/reactportfolio_01.png" alt="reactportfolio1"></WorkImage>
+                <WorkImage src="/images/works/reactportfolio_02.png" alt="reactportfolio2"></WorkImage>
+                <WorkImage src="/images/works/reactportfolio_03.png" alt="reactportfolio3"></WorkImage>
             </Container>
         </Layout>
     )
