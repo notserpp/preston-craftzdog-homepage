@@ -6,8 +6,7 @@ import {
     IoMail,
     IoLogoLinkedin
 } from 'react-icons/io5'
-import { GridItem } from '../components/grid-item'
-import { SimpleGrid, Container, Heading, List, ListItem, Button, Link, Icon, Box, useColorModeValue } from '@chakra-ui/react'
+import { Container, Heading, List, ListItem, Button, Link, Icon, Box, useColorModeValue } from '@chakra-ui/react'
 import Layout from '../components/layouts/article.js'
 import Section from '../components/section'
 import NextLink from 'next/link'
@@ -17,17 +16,17 @@ const Contact = () => {
         <Layout>
             <Container>
 
-                    <Section delay={0.3}>
-                        <Heading align="center" as="h1" mb={4}>
-                            On the web
-                        </Heading>
-                        <Box
-                    borderRadius="lg"
-                    mb={6}
-                    p={3}
-                    textAlign="center"
-                    bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-                >
+                <Section delay={0.3}>
+                    <Heading align="center" as="h1" mb={4}>
+                        On the web
+                    </Heading>
+                    <Box
+                        borderRadius="lg"
+                        mb={6}
+                        p={3}
+                        textAlign="center"
+                        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+                    >
                         <List align="center">
                             <ListItem>
                                 <Link href="mailto: prestonsegura@gmail.com" target="_blank">
@@ -72,9 +71,9 @@ const Contact = () => {
                                 </Link>
                             </ListItem>
                         </List>
-                        </Box>
-                    </Section>
-                
+                    </Box>
+                </Section>
+
                 <Box my={6} align="center">
                     <NextLink href="/">
                         <Button colorScheme="teal">Return to home</Button>
