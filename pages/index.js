@@ -117,7 +117,7 @@ const Page = () => {
                     </NextLink>
                 </Box>
                 <Divider my={6} />
-                <Text fontSize='xs' isTruncated>
+                <Text fontSize='10px' align="center">
                 &quot;The Force Awakens Lowpoly&quot; (https://skfb.ly/Ktto) by Fi Silva is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
                 </Text>
         </Layout>
