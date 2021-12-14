@@ -55,7 +55,6 @@ const VoxelDog = () => {
 
       // 640 -> 240
       // 8   -> 6
-      //"The Force Awakens Lowpoly" (https://skfb.ly/Ktto) by Fi Silva is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
       const scale = scH * 0.0005 + 4.8
       const camera = new THREE.OrthographicCamera(
         -scale,

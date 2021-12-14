@@ -1,6 +1,6 @@
 import { Container, Box, Heading, Image, Link, Button } from '@chakra-ui/react'
 import NextLink from 'next/link'
-import { useColorModeValue } from '@chakra-ui/react'
+import { useColorModeValue, Divider, Text } from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
@@ -116,6 +116,10 @@ const Page = () => {
                         </Button>
                     </NextLink>
                 </Box>
+                <Divider my={6} />
+                <Text fontSize='xs' isTruncated>
+                &quot;The Force Awakens Lowpoly&quot; (https://skfb.ly/Ktto) by Fi Silva is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
+                </Text>
         </Layout>
     )
 }
