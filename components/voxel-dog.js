@@ -55,6 +55,7 @@ const VoxelDog = () => {
 
       // 640 -> 240
       // 8   -> 6
+  
       const scale = scH * 0.0005 + 4.8
       const camera = new THREE.OrthographicCamera(
         -scale,
@@ -129,7 +130,7 @@ const VoxelDog = () => {
         <Box ref={refContainer}
             className='voxel-dog'
             m="auto"
-            mt={['-20px', '-60px', '-120px']}
+            mt={['-20px', '-60px', '-220px']}
             mb={['-40px', '-140px', '-200px']}
             w={[280, 480, 640]}
             h={[280, 480, 640]}
