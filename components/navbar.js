@@ -76,7 +76,7 @@ const Navbar = props => {
                     </LinkItem>
                 </Stack>
 
-                <Box flex={1} algin="right">
+                <Box flex={1} algin="right" marginTop={1}>
                     <ThemeToggleButton />
                     <Box
                         ml={2}

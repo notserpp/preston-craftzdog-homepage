@@ -6,13 +6,12 @@ import Fonts from '../components/fonts'
 
 const LogoBox = styled.span`
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
   display: inline-flex;
   align-items: center;
-  height: 30px;
+  height: 45px;
   line-height: 20px;
   padding: 10px;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
   img {
     transition: 200ms ease;
   }
@@ -28,10 +27,10 @@ const Logo = () => {
     <Link href="/">
       <a>
         <LogoBox>
-          <Image src={footPrintImg} width={20} height={20} alt="logo" />
+          <Image src={footPrintImg} width={40} height={40} alt="logo"/>
           <Fonts />
           <Text>
-            Preston Segura
+            PS
           </Text>
         </LogoBox>
       </a>
